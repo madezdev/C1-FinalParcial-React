@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { Card } from "../components/card/Card";
-import { useOdontContext } from "../context/OdontContext";
+import { Card } from "../../components/card/Card";
+import { useOdontContext } from "../../context/OdontContext";
 
 export const DestacadoPage = () => {
   //const fav = JSON.parse(localStorage.getItem("favoritos"));

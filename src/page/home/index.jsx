@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 //import { useOdontContext } from '../../context/OdontContext';
 
-import { CardList } from '../cardList/CardList';
+import { CardList } from '../../components/cardList/CardList';
 
 export const CardListContainer = () => {
     const [users, setUsers] = useState([]);
