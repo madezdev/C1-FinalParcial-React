@@ -27,7 +27,7 @@ export const ContactPage = () => {
                 Nombre y Apellido
               </label>
               <input
-                {...register("TxtDescUser", {
+                {...register("name", {
                   required: {
                     value: true,
                     message: "Ingrese el Nombre y Apellido",
@@ -42,7 +42,7 @@ export const ContactPage = () => {
                 placeholder="Ingrese el nuevo Nombre y Apellido"
                 className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300 transition-all duration-300"
               />
-              {errors.TxtDescUser && (
+              {errors.name && (
                 <span className="text-red-500 text-xs">
                   {String(errors.TxtDescUser.message)}
                 </span>
