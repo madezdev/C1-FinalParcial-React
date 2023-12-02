@@ -13,7 +13,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<CardListContainer />} />
-        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/contacto" element={<ContactPage />} />
         <Route path="/card/:id" element={<OdontDetailContainer />} />
         <Route path="/destacados" element={<DestacadoPage />} />
       </Routes>
