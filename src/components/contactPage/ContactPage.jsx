@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+
 import { useForm } from "react-hook-form";
 
 export const ContactPage = () => {
@@ -8,12 +8,10 @@ export const ContactPage = () => {
     formState: { errors },
   } = useForm();
 
-  let navigate = useNavigate();
 
   const onSubmit = handleSubmit((data) => {
     console.log(data);
 
-    //navigate("/");
   });
 
   return (
