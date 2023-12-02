@@ -1,7 +1,7 @@
 
 import { useForm } from "react-hook-form";
 
-export const ContactPage = () => {
+const Contacto = () => {
   const {
     handleSubmit,
     register,
@@ -88,3 +88,5 @@ export const ContactPage = () => {
   );
 };
 
+
+export default Contacto;

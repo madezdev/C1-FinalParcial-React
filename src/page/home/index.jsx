@@ -1,14 +1,8 @@
 import { useState, useEffect } from 'react'
-//import { useOdontContext } from '../../context/OdontContext';
-
 import { CardList } from '../../components/cardList/CardList';
 
-export const CardListContainer = () => {
+const Home = () => {
     const [users, setUsers] = useState([]);
-
-    //const { state } = useOdontContext();
-
-    //const themeClass = state.theme ? "light-theme" : "dark-theme"
 
     useEffect(() => {
         fetch("https://jsonplaceholder.typicode.com/users")
@@ -29,3 +23,5 @@ export const CardListContainer = () => {
         
       );
     };
+
+export default Home;

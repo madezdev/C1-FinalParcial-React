@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Card } from "../../components/card/Card";
 import { useOdontContext } from "../../context/OdontContext";
 
-export const DestacadoPage = () => {
+const Destacado = () => {
   //const fav = JSON.parse(localStorage.getItem("favoritos"));
   const { state, dispatch } = useOdontContext();
   const fav = state.favoritos;
@@ -41,3 +41,5 @@ export const DestacadoPage = () => {
     </main>
   );
 };
+
+export default Destacado;
